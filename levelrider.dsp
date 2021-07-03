@@ -1,6 +1,6 @@
 declare filename "levelrider_stereo.dsp";
 declare name 		"Level Rider";
-declare version 	"1.0";
+declare version 	"1.1";
 declare author 		"Evermind";
 declare license 	"BSD";
 declare copyright 	"(c) Evermind 2021";
