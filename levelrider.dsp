@@ -32,4 +32,4 @@ desired_change = target / current_rms;
 //calculate actual change
 actual_change = min(maxchange,desired_change) : max(1/maxchange) <: attach(_,ba.linear2db : hbargraph("[2]Adjustment[unit:dB]",-20,20));
 
-process		= sp.stereoize(* (actual_change));
+process		= _,_ : sp.stereoize(* (actual_change));
